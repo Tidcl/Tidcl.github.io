@@ -1,8 +1,8 @@
 ---
 title: "Win环境下ESP8266 RTOS SDK编译烧录"
-subtitle: ""
+subtitle: " "
 layout: post
-author: "Txc"
+author: "Tidcl"
 header-style: text
 hidden: false
 plchart: true
@@ -10,10 +10,6 @@ tags:
   - ESP8266
   - RTOS
 ---
-
-
-
-
 
 # 在Windows环境将ESP8266 RTOS SDK编译烧录进ESP8266MOD(ESP-12E)开发板
 
