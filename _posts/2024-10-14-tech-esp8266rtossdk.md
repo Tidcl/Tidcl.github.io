@@ -59,21 +59,21 @@ make menuconfig
 
 选择“Serial flasher config --->”
 
- ![菜单1](..\img\posts\esp8266rtossdk\菜单1.PNG)
+ ![菜单1](https://tidcl.github.io/img/posts/esp8266rtossdk/菜单1.PNG)
 
 配置"Default serrial port"为开发板端口，我的是COM3
 
-![端口](..\img\posts\esp8266rtossdk\端口.PNG)
+![端口](https://tidcl.github.io/img/posts/esp8266rtossdk/端口.PNG)
 
 配置"Flash size"，我的开发板是4M
 
-![菜单2](..\img\posts\esp8266rtossdk\菜单2.PNG)
+![菜单2](https://tidcl.github.io/img/posts/esp8266rtossdk/菜单2.PNG)
 
 make all							 编译
 
 make flash					     烧录
 
-![烧录成功](..\img\posts\esp8266rtossdk\烧录成功.PNG)
+![烧录成功](https://tidcl.github.io/img/posts/esp8266rtossdk/烧录成功.PNG)
 
 
 
