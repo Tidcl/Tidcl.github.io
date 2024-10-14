@@ -1,4 +1,4 @@
-```
+---
 title: "windows编译ffmpeg库"
 subtitle: ""
 layout: post
@@ -10,7 +10,7 @@ tags:
   - ffmpeg
   - msys2
   - mingw
-```
+---
 
 
 

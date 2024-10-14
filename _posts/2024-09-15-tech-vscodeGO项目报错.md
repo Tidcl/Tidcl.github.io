@@ -11,10 +11,6 @@ tags:
   - vscode
 ---
 
-
-
-
-
 ### 在vscode控制台（ctrl+shift+p打开控制台）输入go install
 
 报错：command 'go.tools.install' not found
