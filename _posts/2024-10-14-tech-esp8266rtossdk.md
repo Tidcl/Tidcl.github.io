@@ -1,5 +1,5 @@
----
-title: "Win»·¾³ÏÂESP8266 RTOS SDK±àÒëÉÕÂ¼"
+ï»¿---
+title: "Winç¯å¢ƒä¸‹ESP8266 RTOS SDKç¼–è¯‘çƒ§å½•"
 subtitle: " "
 layout: post
 author: "Tidcl"
@@ -11,81 +11,83 @@ tags:
   - RTOS
 ---
 
-# ÔÚWindows»·¾³½«ESP8266 RTOS SDK±àÒëÉÕÂ¼½øESP8266MOD(ESP-12E)¿ª·¢°å
+
+
+# åœ¨Windowsç¯å¢ƒå°†ESP8266 RTOS SDKç¼–è¯‘çƒ§å½•è¿›ESP8266MOD(ESP-12E)å¼€å‘æ¿
 
 
 
-## »ñÈ¡×ÊÔ´ [Standard Setup of Toolchain for Windows ¡ª ESP8266 RTOS SDK Programming Guide documentation (espressif.com)](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html)
+## è·å–èµ„æº [Standard Setup of Toolchain for Windows â€” ESP8266 RTOS SDK Programming Guide documentation (espressif.com)](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html)
 
-1. ±àÒë»·¾³£ºhttps://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20181001.zip
-   ÔÚwindowsÄ£Äâlinux»·¾³£¬Ìá¹©Ò»ÏµÁĞ¹¤¾ß°ü¼¯ºÏ£¬ÏñÔÚlinux»·¾³ÏÂ±àÒë´úÂë£¬Í¨¹ıpacman¹ÜÀí¹¤¾ß°ü¡£
-2. ¹¤¾ßÁ´£¨ÓÃÓÚSDK¸ßÓÚ3.0°æ±¾£©£ºhttps://dl.espressif.com/dl/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.zip
-   ±àÒë´úÂëÊ±ËùĞèµÄ¹¤¾ß¼¯ºÏ¡£
-3. ESP8266 RTOS SDK´úÂë£¨2024Äê10ÔÂ14ÈÕSDK°æ±¾Îªv3.4£©£ºhttps://github.com/espressif/ESP8266_RTOS_SDK/releases/tag/v3.4
-   ESP8266 RTOS Software Development Kit (SDK)ÊÇESP8266 RTOSµÄÈí¼ş¿ª·¢Ì×¼ş£¬Ìá¹©ÁËÔÚ¿ª·¢ESP8266 RTOSÈí¼şÊ±ÓÃµ½µÄÍ·ÎÄ¼ş£¬Èı·½¿â£¬¹¤¾ßµÈ×ÊÔ´¡£
+1. ç¼–è¯‘ç¯å¢ƒï¼šhttps://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20181001.zip
+   åœ¨windowsæ¨¡æ‹Ÿlinuxç¯å¢ƒï¼Œæä¾›ä¸€ç³»åˆ—å·¥å…·åŒ…é›†åˆï¼Œåƒåœ¨linuxç¯å¢ƒä¸‹ç¼–è¯‘ä»£ç ï¼Œé€šè¿‡pacmanç®¡ç†å·¥å…·åŒ…ã€‚
+2. å·¥å…·é“¾ï¼ˆç”¨äºSDKé«˜äº3.0ç‰ˆæœ¬ï¼‰ï¼šhttps://dl.espressif.com/dl/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.zip
+   ç¼–è¯‘ä»£ç æ—¶æ‰€éœ€çš„å·¥å…·é›†åˆã€‚
+3. ESP8266 RTOS SDKä»£ç ï¼ˆ2024å¹´10æœˆ14æ—¥SDKç‰ˆæœ¬ä¸ºv3.4ï¼‰ï¼šhttps://github.com/espressif/ESP8266_RTOS_SDK/releases/tag/v3.4
+   ESP8266 RTOS Software Development Kit (SDK)æ˜¯ESP8266 RTOSçš„è½¯ä»¶å¼€å‘å¥—ä»¶ï¼Œæä¾›äº†åœ¨å¼€å‘ESP8266 RTOSè½¯ä»¶æ—¶ç”¨åˆ°çš„å¤´æ–‡ä»¶ï¼Œä¸‰æ–¹åº“ï¼Œå·¥å…·ç­‰èµ„æºã€‚
 
-## ´î½¨»·¾³
+## æ­å»ºç¯å¢ƒ
 
-½âÑ¹esp32_win32_msys2_environment_and_toolchain-20181001.zipµ½msys32Ä¿Â¼ÖĞ¡£
+è§£å‹esp32_win32_msys2_environment_and_toolchain-20181001.zipåˆ°msys32ç›®å½•ä¸­ã€‚
 
-½âÑ¹xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.zipµ½msys32/optÄ¿Â¼£¬²¢´ò¿ªmsys32/etc/profile.d/esp32_toolchain.shÅäÖÃ£¬Èç¹û²»ÅäÖÃ»á±àÒë´íÎó¡£
+è§£å‹xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.zipåˆ°msys32/optç›®å½•ï¼Œå¹¶æ‰“å¼€msys32/etc/profile.d/esp32_toolchain.shé…ç½®ï¼Œå¦‚æœä¸é…ç½®ä¼šç¼–è¯‘é”™è¯¯ã€‚
 
 ```shell
 export PATH="$PATH:/opt/xtensa-lx106-elf/bin"
 ```
 
-´ò¿ªmsys32/etc/profile.d/esp32_toolchain.shÅäÖÃ»·¾³±äÁ¿IDF_PATH£¬¸Ã±äÁ¿Ö¸ÏòESP8266_RTOS_SDKÄ¿Â¼
+æ‰“å¼€msys32/etc/profile.d/esp32_toolchain.shé…ç½®ç¯å¢ƒå˜é‡IDF_PATHï¼Œè¯¥å˜é‡æŒ‡å‘ESP8266_RTOS_SDKç›®å½•
 
 ```shell
-export IDF_PATH="xxx/ESP8266_RTOS_SDK" xxxÌæ»»Îª×Ô¼ºµçÄÔÉÏÂ·¾¶
+export IDF_PATH="xxx/ESP8266_RTOS_SDK" xxxæ›¿æ¢ä¸ºè‡ªå·±ç”µè„‘ä¸Šè·¯å¾„
 ```
 
-ÒÔÉÏ»·¾³±äÁ¿Ò²¿ÉÒÔ´ò¿ªÔÚ¿ØÖÆÌ¨ÖĞÅäÖÃ£¬Ğ´ÔÚÅäÖÃÎÄ¼şÎªÁËÓÀ¾ÃÉúĞ§¡£
+ä»¥ä¸Šç¯å¢ƒå˜é‡ä¹Ÿå¯ä»¥æ‰“å¼€åœ¨æ§åˆ¶å°ä¸­é…ç½®ï¼Œå†™åœ¨é…ç½®æ–‡ä»¶ä¸ºäº†æ°¸ä¹…ç”Ÿæ•ˆã€‚
 
-°²×°ËùĞèµÄPython°ü£¨±¨´íÇë²é¿´ÏÂ·½£©£º
+å®‰è£…æ‰€éœ€çš„PythonåŒ…ï¼ˆæŠ¥é”™è¯·æŸ¥çœ‹ä¸‹æ–¹ï¼‰ï¼š
 
 ```shell
 python2.7 -m pip install --user -r $IDF_PATH/requirements.txt
 ```
 
-´ò¿ª£¬msys32/mingw32.exe
+æ‰“å¼€ï¼Œmsys32/mingw32.exe
 
 ```shell
 cd $IDF_PATH\examples\get-started\hello_world
 make menuconfig
 ```
 
-Ñ¡Ôñ¡°Serial flasher config --->¡±
+é€‰æ‹©â€œSerial flasher config --->â€
 
- ![²Ëµ¥1](..\img\posts\esp8266rtossdk\²Ëµ¥1.PNG)
+ ![èœå•1](..\img\posts\esp8266rtossdk\èœå•1.PNG)
 
-ÅäÖÃ"Default serrial port"Îª¿ª·¢°å¶Ë¿Ú£¬ÎÒµÄÊÇCOM3
+é…ç½®"Default serrial port"ä¸ºå¼€å‘æ¿ç«¯å£ï¼Œæˆ‘çš„æ˜¯COM3
 
-![¶Ë¿Ú](..\img\posts\esp8266rtossdk\¶Ë¿Ú.PNG)
+![ç«¯å£](..\img\posts\esp8266rtossdk\ç«¯å£.PNG)
 
-ÅäÖÃ"Flash size"£¬ÎÒµÄ¿ª·¢°åÊÇ4M
+é…ç½®"Flash size"ï¼Œæˆ‘çš„å¼€å‘æ¿æ˜¯4M
 
-![²Ëµ¥2](..\img\posts\esp8266rtossdk\²Ëµ¥2.PNG)
+![èœå•2](..\img\posts\esp8266rtossdk\èœå•2.PNG)
 
-make all							 ±àÒë
+make all							 ç¼–è¯‘
 
-make flash					     ÉÕÂ¼
+make flash					     çƒ§å½•
 
-![ÉÕÂ¼³É¹¦](..\img\posts\esp8266rtossdk\ÉÕÂ¼³É¹¦.PNG)
+![çƒ§å½•æˆåŠŸ](..\img\posts\esp8266rtossdk\çƒ§å½•æˆåŠŸ.PNG)
 
 
 
-Ê¹ÓÃ´®¿Úµ÷ÊÔÖúÊÖÉèÖÃ74880²¨ÌØÂÊ¡¢Ğ£ÑéÎ»NONE¡¢Êı¾İÎ»8¡¢Í£Ö¹Î»1£¬´ò¿ª´®¿Ú½ÓÊÕÏûÏ¢¡£
+ä½¿ç”¨ä¸²å£è°ƒè¯•åŠ©æ‰‹è®¾ç½®74880æ³¢ç‰¹ç‡ã€æ ¡éªŒä½NONEã€æ•°æ®ä½8ã€åœæ­¢ä½1ï¼Œæ‰“å¼€ä¸²å£æ¥æ”¶æ¶ˆæ¯ã€‚
 
-## ³öÏÖµÄÎÊÌâ
+## å‡ºç°çš„é—®é¢˜
 
-### ±¨´í **make£ºxtensa-lx106-elf-gcc**£¬ĞèÒª½«¹¤¾ßÁ´**xtensa-lx106-elf/bin**Ä¿Â¼Ìí¼Ó½ø»·¾³±äÁ¿
+### æŠ¥é”™ **makeï¼šxtensa-lx106-elf-gcc**ï¼Œéœ€è¦å°†å·¥å…·é“¾**xtensa-lx106-elf/bin**ç›®å½•æ·»åŠ è¿›ç¯å¢ƒå˜é‡
 
 ```
 export PATH="$PATH:/opt/xtensa-lx106-elf/bin"
 ```
 
-### python -m pip install --user -r $IDF_PATH/requirements.txt ±¨´í£º
+### python -m pip install --user -r $IDF_PATH/requirements.txt æŠ¥é”™ï¼š
 
 ```shell
  No matching distribution found for setuptools>=46.4.0
@@ -94,11 +96,11 @@ export PATH="$PATH:/opt/xtensa-lx106-elf/bin"
 Command "E:/Code/esp8266rtos/msys32/mingw32/bin/python.exe -m pip install --ignore-installed --no-user --prefix c:/users/admini~1/appdata/local/temp/pip-build-env-e5zjhi --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- "setuptools >= 46.4.0"" failed with error code 1 in None
 ```
 
-ÒòÎªrequirements.txtÎÄ¼şÖĞsetuptoolsÃ»ÓĞÖ¸¶¨°æ±¾£¬µ«ÊÇÏÂÔØµÄ»·¾³°üÖĞÒÑ¾­°²×°ÁËsetuptools 40.4.3£¬python2Ó¦¸Ã²»ÄÜ°²×°setuptools 46.4.0£¨»¹Î´ÑéÖ¤£©µ¼ÖÂÒ»Ö±ÎŞ·¨°²×°×îĞÂµÄ46.4.0£¬½«requirements.txtÖĞµÄsetuptools¸ÄÎªsetuptools>=40.4.3¼´¿É¡£
+å› ä¸ºrequirements.txtæ–‡ä»¶ä¸­setuptoolsæ²¡æœ‰æŒ‡å®šç‰ˆæœ¬ï¼Œä½†æ˜¯ä¸‹è½½çš„ç¯å¢ƒåŒ…ä¸­å·²ç»å®‰è£…äº†setuptools 40.4.3ï¼Œpython2åº”è¯¥ä¸èƒ½å®‰è£…setuptools 46.4.0ï¼ˆè¿˜æœªéªŒè¯ï¼‰å¯¼è‡´ä¸€ç›´æ— æ³•å®‰è£…æœ€æ–°çš„46.4.0ï¼Œå°†requirements.txtä¸­çš„setuptoolsæ”¹ä¸ºsetuptools>=40.4.3å³å¯ã€‚
 
-requirements.txtÖĞÖ»ÊÇÎªÁË°²×°python°ü£¬»»¸öË¼Â·Ö»ĞèÒª°²×°ºÃ¶ÔÓ¦µÄpython°ü¼´¿É£¬µ±³öÏÖÏÂÃæµÄ´íÎóÊ±£¬ĞèÒªÊÖ¶¯°²×°Ïà¹ØµÄpython°ü¡£
+requirements.txtä¸­åªæ˜¯ä¸ºäº†å®‰è£…pythonåŒ…ï¼Œæ¢ä¸ªæ€è·¯åªéœ€è¦å®‰è£…å¥½å¯¹åº”çš„pythonåŒ…å³å¯ï¼Œå½“å‡ºç°ä¸‹é¢çš„é”™è¯¯æ—¶ï¼Œéœ€è¦æ‰‹åŠ¨å®‰è£…ç›¸å…³çš„pythonåŒ…ã€‚
 
-### make menuconfig ±¨´í(ÒòÎªpython°üÃ»ÓĞÕıÈ·°²×°£¬±¾ÖÊ»¹ÊÇrequirements.txtÎÊÌâ)£º
+### make menuconfig æŠ¥é”™(å› ä¸ºpythonåŒ…æ²¡æœ‰æ­£ç¡®å®‰è£…ï¼Œæœ¬è´¨è¿˜æ˜¯requirements.txté—®é¢˜)ï¼š
 
 ```shell
 The following Python requirements are not satisfied:
@@ -108,10 +110,10 @@ The recommended way to install a packages is via "pacman". Please run "pacman -S
 NOTE: You may need to run "pacman -Syu" if your package database is older and run twice if the previous run updated "pacman" itself.
 Please read https://github.com/msys2/msys2/wiki/Using-packages for further information about using "pacman"
 Alternatively, you can run "E:/Code/esp8266rtos/msys32/mingw32/bin/python.exe -m pip install --user -r E:/Code/esp8266rtos/ESP8266_RTOS_SDK/requirements.txt" for resolving the issue.
-make: *** Ã»ÓĞ¹æÔò¿ÉÖÆ×÷Ä¿±ê¡°check_python_dependencies¡±£¬ÓÉ¡°menuconfig¡± ĞèÇó¡£ Í£Ö¹¡£
+make: *** æ²¡æœ‰è§„åˆ™å¯åˆ¶ä½œç›®æ ‡â€œcheck_python_dependenciesâ€ï¼Œç”±â€œmenuconfigâ€ éœ€æ±‚ã€‚ åœæ­¢ã€‚
 ```
 
-ÌáÊ¾Ã»ÓĞclickºÍpyelftools°ü£¬½â¾ö°ì·¨ÊÖ¶¯°²×°£º
+æç¤ºæ²¡æœ‰clickå’ŒpyelftoolsåŒ…ï¼Œè§£å†³åŠæ³•æ‰‹åŠ¨å®‰è£…ï¼š
 
 ```shell
 python2.exe -m pip install click
@@ -119,15 +121,15 @@ python2.exe -m pip install pyelftools==0.22
 ```
 
 
-ÕâÑùÔËĞĞpython -m pip install --user -r $IDF_PATH/requirements.txt¾Í²»»á±¨´íÁË£¬ÔËĞĞmake menuconfigÒ²»áÕı³£ÁË¡£
+è¿™æ ·è¿è¡Œpython -m pip install --user -r $IDF_PATH/requirements.txtå°±ä¸ä¼šæŠ¥é”™äº†ï¼Œè¿è¡Œmake menuconfigä¹Ÿä¼šæ­£å¸¸äº†ã€‚
 
 
 
-make menuconfig		    ÅäÖÃrtosÏµÍ³
-make clean						Çå³ı
-make all							 ±àÒë
-make flash					     ÉÕÂ¼
-make monitor				  ²é¿´´®¿ÚÊä³ö
+make menuconfig		    é…ç½®rtosç³»ç»Ÿ
+make clean						æ¸…é™¤
+make all							 ç¼–è¯‘
+make flash					     çƒ§å½•
+make monitor				  æŸ¥çœ‹ä¸²å£è¾“å‡º
 
 
-²Î¿¼ÎÄÕÂ£ºhttps://www.cnblogs.com/dongxiaodong/p/12905967.html
+å‚è€ƒæ–‡ç« ï¼šhttps://www.cnblogs.com/dongxiaodong/p/12905967.html
