@@ -126,10 +126,16 @@ python2.exe -m pip install pyelftools==0.22
 
 
 make menuconfig		    配置rtos系统
+
 make clean						清除
+
 make all							 编译
+
 make flash					     烧录
+
 make monitor				  查看串口输出
+
+
 
 
 参考文章：https://www.cnblogs.com/dongxiaodong/p/12905967.html
