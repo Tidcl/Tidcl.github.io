@@ -1,5 +1,5 @@
 ---
-title: "Win环境下ESP8266 RTOS SDK编译烧录"
+title: "ESP32S3运行micro-os"
 subtitle: " "
 layout: post
 author: "Tidcl"
