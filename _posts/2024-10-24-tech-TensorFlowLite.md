@@ -108,7 +108,7 @@ tags:
 
 ## 查找模型
 
-模型网站，已经自动选择了LiteRT类型模型：[Find Pre-trained Models | Kaggle](https://www.kaggle.com/models?framework=tfLite)
+模型网站，已经自动选择了LiteRT类型模型：[Find Pre-trained Models _ Kaggle](https://www.kaggle.com/models?framework=tfLite)
 
 yolo5模型下载地址：https://www.kaggle.com/api/v1/models/kaggle/yolo-v5/tfLite/tflite-tflite-model/1/download
 
@@ -116,9 +116,9 @@ yolo5模型下载地址：https://www.kaggle.com/api/v1/models/kaggle/yolo-v5/tf
 
 ## 构建和模型转换官方文档
 
-[构建和转换模型  | Google AI Edge  | Google AI for Developers](https://ai.google.dev/edge/litert/microcontrollers/build_convert?hl=zh-cn)
+[构建和转换模型  _ Google AI Edge  _ Google AI for Developers](https://ai.google.dev/edge/litert/microcontrollers/build_convert?hl=zh-cn)
 
-[模型转换概览，将TensorFlow模型转换为LiteRT模型  | Google AI Edge  | Google AI for Developers](https://ai.google.dev/edge/litert/models/convert?hl=zh-cn)
+[模型转换概览，将TensorFlow模型转换为LiteRT模型  _ Google AI Edge  _ Google AI for Developers](https://ai.google.dev/edge/litert/models/convert?hl=zh-cn)
 
 python3.13.x 安装 tensorflow 报错：
 
@@ -128,7 +128,7 @@ ERROR: Could not find a version that satisfies the requirement tensorflow (from 
 ERROR: No matching distribution found for tensorflow
 ```
 
-安装python3.11.9解决，[Python 3.11.9 下载地址| Python.org](https://www.python.org/downloads/release/python-3119/)
+安装python3.11.9解决，[Python 3.11.9 下载地址_ Python.org](https://www.python.org/downloads/release/python-3119/)
 
 
 
@@ -183,7 +183,7 @@ python D:\File\tensorflowmodel\yolov7\train.py --img 320 --batch 16 --epochs 50 
 
 # 跟着官方的训练教程走
 
-[微控制器使用入门  | Google AI Edge  | Google AI for Developers](https://ai.google.dev/edge/litert/microcontrollers/get_started?hl=zh-cn)
+[微控制器使用入门  _ Google AI Edge  _ Google AI for Developers](https://ai.google.dev/edge/litert/microcontrollers/get_started?hl=zh-cn)
 
 [tflite-micro/tensorflow/lite/micro/examples/person_detection/training_a_model.md at main · tensorflow/tflite-micro (github.com)](https://github.com/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/examples/person_detection/training_a_model.md)
 
@@ -251,9 +251,9 @@ sudo make altinstall
 
 官方文档 [使用 TensorFlow Lite Model Maker 进行目标检测](https://www.tensorflow.org/lite/models/modify/model_maker/object_detection?hl=zh-cn)
 
-[TensorFlow Lite 模型制作工具  | Google AI Edge  | Google AI for Developers](https://ai.google.dev/edge/litert/libraries/modify?hl=zh-cn)
+[TensorFlow Lite 模型制作工具  _ Google AI Edge  _ Google AI for Developers](https://ai.google.dev/edge/litert/libraries/modify?hl=zh-cn)
 
-[训练和使用您自己的模型  | Vertex AI  | Google Cloud](https://cloud.google.com/vertex-ai/docs/training-overview?hl=zh-cn#image_data)
+[训练和使用您自己的模型  _ Vertex AI  _ Google Cloud](https://cloud.google.com/vertex-ai/docs/training-overview?hl=zh-cn#image_data)
 
 ## 真正训练出来几百KB模型
 

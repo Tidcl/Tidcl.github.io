@@ -112,7 +112,7 @@ void useWifi(){
 
 ## 自定义消息
 
-- [How to include a custom ROS message in micro-ROS | micro-ROS](https://micro.ros.org/docs/tutorials/advanced/create_new_type/) micro-ros
+- [How to include a custom ROS message in micro-ROS _ micro-ROS](https://micro.ros.org/docs/tutorials/advanced/create_new_type/) micro-ros
 - [Creating custom msg and srv files — ROS 2 Documentation: Jazzy documentation](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html#test-the-new-interfaces) ros2
 
 
