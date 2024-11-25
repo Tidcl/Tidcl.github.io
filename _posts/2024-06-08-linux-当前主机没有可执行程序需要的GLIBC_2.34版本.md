@@ -1,5 +1,5 @@
 ---
-title: "wifi热点代理"
+title: "GLIBC找不到"
 subtitle: ""
 layout: post
 author: "Tidcl"
